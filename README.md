@@ -6,5 +6,4 @@
 [OpenCV_tutorial](https://blog.csdn.net/PecoHe/article/category/8748602)
 
 ## OpenCV知识点总结（Update Weekly😉) 
-
-![summary](https://github.com/StdCoutZRH/OpenCV_Samples_CPP/OpenCV知识点总结.png)
+<img src = "https://github.com/StdCoutZRH/OpenCV_Samples_CPP/blob/master/OpenCV%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.png">
