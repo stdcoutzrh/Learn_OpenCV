@@ -1,3 +1,7 @@
+/*
+  画标签，本质就是像素值操作
+*/
+
 #include<opencv2/opencv.hpp>
 #include<iostream>
 

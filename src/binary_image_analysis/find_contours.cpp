@@ -1,3 +1,7 @@
+/*
+  二值图像轮廓提取
+*/
+
 #include<iostream>
 #include<opencv2\opencv.hpp>
 

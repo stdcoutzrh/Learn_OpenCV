@@ -1,3 +1,7 @@
+/*
+  Canny边缘检测算法
+*/
+
 #include<iostream>
 #include<cmath>
 #include<opencv2\opencv.hpp>

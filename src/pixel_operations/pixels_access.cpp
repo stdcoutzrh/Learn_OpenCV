@@ -1,3 +1,7 @@
+/*
+  指定坐标像素值OP
+*/
+
 #include<opencv2/opencv.hpp>
 #include<iostream>
 

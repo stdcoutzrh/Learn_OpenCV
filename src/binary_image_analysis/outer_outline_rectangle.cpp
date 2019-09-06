@@ -1,3 +1,7 @@
+/*
+  轮廓外接矩形
+*/
+
 #include<iostream>
 #include<opencv2\opencv.hpp>
 

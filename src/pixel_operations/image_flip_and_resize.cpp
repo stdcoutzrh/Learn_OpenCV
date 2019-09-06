@@ -1,3 +1,7 @@
+/*
+  图像翻转和形状改变
+*/
+
 #include<opencv2/opencv.hpp>
 #include<iostream>
 //#include<Windows.h>
