@@ -26,12 +26,17 @@ int main(int argc, char**argv)
 			* params表示为特定格式保存的参数编码
 	*/
 
+	//读取指定目录下的图片文件
+	//flag为0则按单通道方式读取图片，得到的input为单通道
 	Mat input = imread("test_images/opencv.jpg",0);
+
+	//创建一个名为input的窗口并在其中显示读入的图片
 	namedWindow("input", CV_WINDOW_NORMAL);
 	imshow("input", input);
 
+	//将独到的图片保存成jpg格式
 	imwrite("gray_input.jpg", input);
+	
 	waitKey(0);
-
 	return 0;
 }
