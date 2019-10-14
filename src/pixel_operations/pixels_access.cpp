@@ -1,5 +1,5 @@
 /*
-  指定坐标像素值OP
+	指定坐标像素值OP
 */
 
 #include<opencv2/opencv.hpp>
@@ -10,8 +10,7 @@ using namespace std;
 
 int main(int argc, char**argv)
 {
-#if 1
-	Mat input_image = imread("./whisper.jpg", 1);
+	Mat input_image = imread("test_images/opencv.jpg", 1);
 	if (input_image.empty())
 	{
 		cout << "read input error!" << endl;
@@ -54,7 +53,7 @@ int main(int argc, char**argv)
 	for (int h = 0; h < height; h++)
 	{
 		uchar* current_row = input_image.ptr<uchar>(h);
-		uchar* flag_row =current_row;
+		uchar* flag_row = current_row;
 		for (int w = 0; w < width; w++)
 		{
 			int b = 0, g = 0, r = 0;
@@ -84,7 +83,7 @@ int main(int argc, char**argv)
 	{
 		Mat_<Vec3b>::iterator ite = input_image.begin<Vec3b>(),
 			end = input_image.end<Vec3b>();
-		
+
 		for (; ite != end; ++ite)
 		{
 			(*ite)[0] = 255 - (*ite)[0];
@@ -99,16 +98,15 @@ int main(int argc, char**argv)
 		for (; ite != end; ++ite)
 		{
 			*ite = 255 - *ite;
-		}		
+		}
 	}
 
 	imshow("result", input_image);
 
 #endif
-	
+
 	waitKey(0);
 	destroyAllWindows();
-#endif
 
 	return 0;
 }
