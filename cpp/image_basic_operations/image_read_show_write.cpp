@@ -1,3 +1,7 @@
+/*
+	读取、显示、保存图片
+*/
+
 #include<iostream>
 #include<opencv2\opencv.hpp>
 
