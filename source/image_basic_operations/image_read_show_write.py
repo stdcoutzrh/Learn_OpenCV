@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np 
 
 # 以单通道方式读取图片
-input = cv.imread("/home/peco/images/test.jpg",0)
+input = cv.imread("./test_images/opencv.jpg",0)
 
 #创建一个名为input的窗口并在其中显示读入的图片
 cv.namedWindow("input",cv.WINDOW_NORMAL)
